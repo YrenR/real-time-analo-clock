@@ -1,0 +1,126 @@
+.clock-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.clock,
+.clock * {
+  position: absolute;
+}
+
+.clock span {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bolder;
+}
+
+.clock {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  color: #444;
+}
+
+.clock::after {
+  background: #aaa;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% - 6px);
+  border: 2px solid #fff;
+}
+
+.hour-hand {
+  width: 6px;
+  height: 20%;
+  background: #222;
+  top: calc(50% - 20%);
+  left: calc(50% - 3px);
+  transform-origin: bottom;
+}
+
+.minute-hand {
+  width: 4px;
+  height: 30%;
+  background: #444;
+  top: calc(50% - 30%);
+  left: calc(50% - 2px);
+  transform-origin: bottom;
+}
+
+.second-hand {
+  width: 2px;
+  height: 35%;
+  background: red;
+  top: calc(50% - 35%);
+  left: calc(50% - 1px);
+  transform-origin: bottom;
+}
+
+.clock-number-1 {
+  top: calc(5% + 0.5em);
+  right: calc(30% - 0.5em);
+}
+
+.clock-number-2 {
+  top: calc(20% + 0.5em);
+  right: calc(15% - 0.5em);
+}
+
+.clock-number-3 {
+  top: calc(50% - 0.5em);
+  right: calc(10% - 0.5em);
+}
+
+.clock-number-4 {
+  bottom: calc(20% + 0.5em);
+  right: calc(15% - 0.5em);
+}
+
+.clock-number-5 {
+  bottom: calc(5% + 0.5em);
+  right: calc(30% - 0.5em);
+}
+
+.clock-number-6 {
+  bottom: calc(0% + 0.5em);
+  left: calc(50% - 0.5em);
+}
+
+.clock-number-7 {
+  bottom: calc(5% + 0.5em);
+  left: calc(30% - 0.5em);
+}
+
+.clock-number-8 {
+  bottom: calc(20% + 0.5em);
+  left: calc(15% - 0.5em);
+}
+
+.clock-number-9 {
+  top: calc(50% - 0.5em);
+  left: calc(10% - 0.5em);
+}
+
+.clock-number-10 {
+  top: calc(20% + 0.5em);
+  left: calc(15% - 0.5em);
+}
+
+.clock-number-11 {
+  top: calc(5% + 0.5em);
+  left: calc(30% - 0.5em);
+}
+
+.clock-number-12 {
+  top: calc(0% + 0.5em);
+  left: calc(50% - 0.5em);
+}
