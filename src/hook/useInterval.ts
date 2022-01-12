@@ -1,5 +1,10 @@
 import { useEffect, useRef } from "react";
 
+/**
+ * The callback is launched every [delay]
+ * @param callback
+ * @param delay in milliseconds (default 1000)
+ */
 export default function useInterval(callback: Function, delay: number = 1000): void {
   const refCallback = useRef<Function>();
 
