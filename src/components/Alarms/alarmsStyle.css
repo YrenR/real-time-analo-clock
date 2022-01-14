@@ -1,0 +1,20 @@
+.alarams-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.alarams-chips {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 0.5rem;
+}
+
+.alarams-chips-active {
+  background-color: #46a14ba8;
+  color: white;
+}
+
+.alarams-chips-inactive {
+  background-color: #b8b8b8;
+  color: white;
+}
