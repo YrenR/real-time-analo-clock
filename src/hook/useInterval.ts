@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 
 /**
- * The callback is launched every [delay]
+ * The callback is launched every [delay] millieconds
  * @param callback
  * @param delay in milliseconds (default 1000)
  */
