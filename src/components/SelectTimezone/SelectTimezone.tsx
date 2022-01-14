@@ -1,5 +1,6 @@
 import React, { ChangeEvent } from "react";
 import timezones, { Timezone } from "timezones.json";
+import "./selectTimezoneStyle.css";
 
 export default function SelectTimezone({ onChange }: { onChange: (timezone: Timezone) => void }): JSX.Element {
   const handlerOnChange = (event: ChangeEvent<HTMLSelectElement>) => {

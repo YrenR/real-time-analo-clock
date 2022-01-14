@@ -1,0 +1,11 @@
+.select-timezones-container select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .select-timezones-container select {
+    width: 380px;
+  }
+}
