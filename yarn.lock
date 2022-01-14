@@ -1715,6 +1715,11 @@
   resolved "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
+"@types/luxon@^2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@types/luxon/-/luxon-2.0.9.tgz#782a0edfa6d699191292c13168bd496cd66b87c6"
+  integrity sha512-ZuzIc7aN+i2ZDMWIiSmMdubR9EMMSTdEzF6R+FckP4p6xdnOYKqknTo/k+xXQvciSXlNGIwA4OPU5X7JIFzYdA==
+
 "@types/mime@^1":
   version "1.3.2"
   resolved "https://registry.npmjs.org/@types/mime/-/mime-1.3.2.tgz"
@@ -5650,6 +5655,11 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
+luxon@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-2.3.0.tgz#bf16a7e642513c2a20a6230a6a41b0ab446d0045"
+  integrity sha512-gv6jZCV+gGIrVKhO90yrsn8qXPKD8HYZJtrUDSfEbow8Tkw84T9OnCyJhWvnJIaIF/tBuiAjZuQHUt1LddX2mg==
+
 lz-string@^1.4.4:
   version "1.4.4"
   resolved "https://registry.npmjs.org/lz-string/-/lz-string-1.4.4.tgz"
@@ -7923,6 +7933,11 @@ thunky@^1.0.2:
   version "1.1.0"
   resolved "https://registry.npmjs.org/thunky/-/thunky-1.1.0.tgz"
   integrity sha512-eHY7nBftgThBqOyHGVN+l8gF0BucP09fMo0oO/Lb0w1OF80dJv+lDVpXG60WMQvkcxAkNybKsrEIE3ZtKGmPrA==
+
+timezones.json@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/timezones.json/-/timezones.json-1.6.0.tgz#49a2d66ce979d12b9256f2a11ffd4f95d119b324"
+  integrity sha512-Zr6Bi8N3pDP4DaYT0ncFh9+rToLknADAPEmOrPzA8bVnvBZAkTCnf2U34RxjRkjjX2qqupWB3r2sKo0X7q5uAw==
 
 timsort@^0.3.0:
   version "0.3.0"
