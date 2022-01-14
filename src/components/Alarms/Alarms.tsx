@@ -16,9 +16,9 @@ export default function Alarms({ alarms = [] }: { alarms: Array<Alarm> }) {
     <div>
       <h1>Alarms</h1>
       <div className="alarams-container">
-        {alarms.map((x) => (
-          <span key={x.id} className={getClassNameChip(x.active)}>
-            {x.time}
+        {alarms.map(({ id, time, active }) => (
+          <span key={id} className={getClassNameChip(active)}>
+            {time}
           </span>
         ))}
       </div>
