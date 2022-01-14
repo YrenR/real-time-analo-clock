@@ -1,3 +1,7 @@
+# github pages
+
+[View Demo](https://yrenr.github.io/real-time-analo-clock/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
